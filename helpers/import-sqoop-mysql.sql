@@ -1,5 +1,5 @@
 -- Conectando ao container do sqoop
-docker exec -i -t namenode bash
+docker exec -it namenode bash
 
 -- Importando tabela de employees do MySQL
 sqoop import --connect jdbc:mysql://database/employees \
