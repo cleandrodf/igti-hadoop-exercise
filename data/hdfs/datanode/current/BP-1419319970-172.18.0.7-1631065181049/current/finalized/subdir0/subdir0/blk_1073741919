@@ -1,0 +1,6 @@
+#Dataset descriptor for employees
+#Wed Sep 08 15:35:17 UTC 2021
+location=hdfs\://namenode\:8020/user/root/raw_zone/employees
+version=1
+compressionType=snappy
+format=parquet
